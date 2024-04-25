@@ -1,0 +1,9 @@
+Automaton States: A_B A 
+Automaton Alphabet: 1 0 
+Automaton Transitions:
+A_B 0 A
+A_B 1 A_B
+A 0 A
+A 1 A_B
+Automaton Start State: A
+Automaton Final States: A_B 

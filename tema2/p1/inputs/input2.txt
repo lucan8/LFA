@@ -1,0 +1,15 @@
+3
+A B C
+2
+a b
+7
+A a A
+A a B
+A b C
+B a A
+B b B
+C b A
+C b B
+A
+1
+C
