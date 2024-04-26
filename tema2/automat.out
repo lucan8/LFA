@@ -1,9 +1,11 @@
-Automaton States: A_B A 
+Automaton States: C_D_E A_B F 
 Automaton Alphabet: 1 0 
 Automaton Transitions:
-A_B 0 A
-A_B 1 A_B
-A 0 A
-A 1 A_B
-Automaton Start State: A
-Automaton Final States: A_B 
+A_B 1 C_D_E
+C_D_E 0 C_D_E
+A_B 0 A_B
+C_D_E 1 F
+F 0 F
+F 1 F
+Automaton Start State: A_B
+Automaton Final States: C_D_E 

@@ -19,7 +19,7 @@ void Automaton :: addFinalState(const string& state_name){
         
         this->FinalStates.insert(state);
     } catch(string& e){
-        cerr << "Error at addFinalState: " << e << '\n';
+        cerr << "Error(addFinalState): " << e << '\n';
     }
 }
 
@@ -38,7 +38,7 @@ void Automaton :: addTransition(char letter, const string& st_name1, const strin
             )
         );
     } catch(string& e){
-        cerr <<"Error at addTransition: " << e << '\n';
+        cerr <<"Error(addTransition): " << e << '\n';
     }
 }
 
@@ -162,7 +162,7 @@ void Automaton :: setStartState(const string& state_name){
     try{
         this->StartState = this->searchState(state_name);
     } catch(string& e){
-        cerr << "Error at setStartState: " << e << '\n';
+        cerr << "Error(setStartState): " << e << '\n';
     }
 }
 
